@@ -12,3 +12,19 @@ document.addEventListener("click", function (e) {
     sidebar.classList.remove("active");
   }
 });
+
+const cart = document.querySelector("#cart");
+const search = document.querySelector("#search");
+const btn = document.querySelector("form .btn");
+
+cart.addEventListener("click", function () {
+  alert("fitur ini akan segera datang");
+});
+
+search.addEventListener("click", function () {
+  alert("fitur ini akan segera datang");
+});
+
+btn.addEventListener("click", function () {
+  alert("Maaf saat ini anda belum bisa mengirim pesan");
+});
